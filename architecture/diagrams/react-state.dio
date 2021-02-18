@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e" modified="2021-02-15T18:02:26.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" version="14.2.4" etag="0INjaU4_EVI9nku8b4yv" type="embed">
+    <diagram id="LUMaFO0X_6WdrORgKlKk" name="Page-1">
+        <mxGraphModel dx="522" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="React Component" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="90" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="State" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="115" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Parent component" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="110" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="State" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="135" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="When there's a need to share state between components, we pass the state down through props" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="40" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Child component" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="290" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="State" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="315" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Props" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="180" as="sourcePoint"/>
+                        <mxPoint x="370" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Whenever a value in the parent states' value can be mutated by subcomponents state, a callback must be passed to the sub component to handle updating the parent state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="55" width="350" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Parent component" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="110" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="State" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="875" y="135" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Child component" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="290" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="State" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="875" y="315" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Props(callback)" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="15" target="13">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="760" y="180" as="sourcePoint"/>
+                        <mxPoint x="810" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="885" y="195" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Redux" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="570" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="State" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="15" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Parent component" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="680" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="State" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="705" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Child component" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="860" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="State" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="885" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="765" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="When using redux, state is stored globally in the Redux store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="630" width="225" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Redux Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="780" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Subscribe" style="endArrow=none;html=1;exitX=1.015;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28" target="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="310" y="810" as="sourcePoint"/>
+                        <mxPoint x="360" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Subscribe" style="endArrow=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="30" target="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="310" y="810" as="sourcePoint"/>
+                        <mxPoint x="360" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
